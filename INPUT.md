@@ -1,7 +1,14 @@
 These codes are for a fun project I am looking into. It is about applying graph projection splitting algorithm as a heuristic to convex integer programming problems (*e.g.,* linear integer programming problems). The codes in this repository applies the graph projection splitting heuristic to the following problem: 
 
-
-
+$$
+\begin{equation}
+\begin{aligned} & \mathrm{minimize} &  & \|Dx-d\|_{2}^{2}\\
+ & \mathrm{subject\;to} &  & Ax=b\\
+ &  &  & 0\preceq x\preceq u\\
+ &  &  & x\in\mathbf{Z}^{n},
+\end{aligned}
+\end{equation}
+$$
 where $x$ is the optimization variable and $A\in\mathbf{Z}^{m\times n},b\in\mathbf{Z}^{m},D\in\mathbf{R}^{p\times n},d\in\mathbf{R}^{p}$ are problem data. The matrix $A$ is fat full row rank ($m<n$) and the matrix $D$ is skinny full column row rank ($p>n$). 
 
 ## Code structure
