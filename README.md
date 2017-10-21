@@ -8,7 +8,7 @@ where <img src="https://rawgit.com/Shuvomoy/Graph-projection-splitting-heuristic
 
 There are two parts:
 
-1. **Problem generation and pre-calculation:** The problem generation and pre-calculation is done using `Mathematica` because of the excellent package `hnfLLL`, that calculates integer normal form of a matrix using LLL algorithm, is written in `Mathematica`. The package is written by by Professor Wilberd van der Kallen and is used with his permission. 
+1. **Problem generation and pre-calculation:** The problem generation and pre-calculation is done using `Mathematica` because of the excellent package `hnfLLL`, that calculates integer normal form of a matrix using LLL algorithm, is written in `Mathematica`. The package is written by Professor Wilberd van der Kallen and is used with his permission. 
 2. **Graph projection splitting algorithm:** The algorithm is implemented in `MATLAB`. The integer least squares problem is solved exactly by using the `MATLAB` package `MILES`.
 
 
